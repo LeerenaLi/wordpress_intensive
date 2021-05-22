@@ -129,7 +129,7 @@ h2.title {
     padding: 88px 0 75px 0;
 }
 
-.waiting .waiting_header {
+.waiting .waiting_header, .finish .finish_header {
     color: #252525;
     font-family: Roboto;
     font-size: 30px;
@@ -138,7 +138,12 @@ h2.title {
     text-transform: uppercase;
 }
 
-.waiting .waiting_divider {
+.finish .finish_header {
+    color: #EFEFEF;
+    font-weight: normal;
+}
+
+.waiting .waiting_divider, .finish .finish_divider {
     background: #F9BF3B;
     width: 220px;
     height: 4px;
@@ -212,4 +217,41 @@ h2.title {
     top: -47px;
     left: -240px;
     z-index: -1;
+}
+
+.finish {
+    min-height: 447px;
+    padding: 86px 0 79px 0;
+    background: url('../img/fon_finish.jpg') center center/cover no-repeat;
+}
+
+.finish .finish_wrapper {
+    margin-top: 39px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.finish .finish_wrapper .finish_item {
+    width: 234px;
+}
+
+.finish .finish_wrapper .finish_item .finish_round {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 118px;
+    height: 118px;
+    background: #B4E2FF;
+    border-radius: 100%;
+}
+
+.finish .finish_wrapper .finish_item .finish_descr {
+    margin-top: 25px;
+    text-align: center;
+    color: #EFEFEF;
+    font-family: Roboto;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 20px;
 }
