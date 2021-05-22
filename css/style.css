@@ -5,12 +5,13 @@
 }
 
 .container {
+    position: relative;
     width: 1140px;
     margin: 0 auto;
 }
 
 .promo {
-    /* height: 800px;  если добавляем, то понять почему лишнее место и убрать line-height */
+    min-height: 800px;
     background: url('../img/fon.jpg') center center/cover no-repeat;
     padding-top: 39px;
     padding-bottom: 62px;
@@ -123,7 +124,7 @@ h2.title {
 }
 
 .waiting {
-    height: 607px;
+    min-height: 607px;
     background-color: #EFEFEF;
     padding: 88px 0 75px 0;
 }
@@ -176,4 +177,39 @@ h2.title {
     font-weight: 300;
     font-size: 15px;
     line-height: 21px;
+}
+
+.optimization {
+    min-height: 549px;
+    padding: 108px 0 74px 0;
+}
+
+.optimization .optimization_header {
+    margin-left: 391px;
+    color: #299CBD;
+    font-family: Roboto;
+    font-weight: 900;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.optimization .optimization_text {
+    margin-left: 389px;
+    margin-top: 23px;
+    color: #4A4A4A;
+    font-family: Roboto;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 23px;
+}
+
+.optimization .optimization_text span {
+    font-weight: 700;
+}
+
+.optimization .optimization_img {
+    position: absolute;
+    top: -47px;
+    left: -240px;
+    z-index: -1;
 }
