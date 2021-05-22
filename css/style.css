@@ -10,7 +10,7 @@
 }
 
 .promo {
-    height: 800px;
+    /* height: 800px;  если добавляем, то понять почему лишнее место и убрать line-height */
     background: url('../img/fon.jpg') center center/cover no-repeat;
     padding-top: 39px;
     padding-bottom: 62px;
@@ -120,4 +120,60 @@ h2.title {
     display: block;
     margin: 0 auto;
     margin-top: 13px;
+}
+
+.waiting {
+    height: 607px;
+    background-color: #EFEFEF;
+    padding: 88px 0 75px 0;
+}
+
+.waiting .waiting_header {
+    color: #252525;
+    font-family: Roboto;
+    font-size: 30px;
+    line-height: 30px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.waiting .waiting_divider {
+    background: #F9BF3B;
+    width: 220px;
+    height: 4px;
+    margin: 0 auto;
+    margin-top: 18px;
+}
+
+.waiting .waiting_subheader {
+    color: #4A4A4A;
+    font-family: Roboto;
+    font-size: 23px;
+    line-height: 26px;
+    margin-top: 18px;
+    text-align: center;
+}
+
+.waiting .waiting_wrapper {
+    margin-top: 45px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.waiting .waiting_wrapper .waiting_item {
+    width: 339px;
+    text-align: center;
+}
+
+.waiting .waiting_wrapper .waiting_item .waiting_img {
+    width: 100%;
+}
+
+.waiting .waiting_wrapper .waiting_item .waiting_descr {
+    margin-top: 23px;
+    color: #4A4A4A;
+    font-family: Roboto;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 21px;
 }
