@@ -129,10 +129,11 @@ h2.title {
     padding: 88px 0 75px 0;
 }
 
-.waiting .waiting_header, .finish .finish_header {
+.waiting .waiting_header, .finish .finish_header, .webinar .webinar_header {
     color: #252525;
     font-family: Roboto;
     font-size: 30px;
+    font-weight: normal;
     line-height: 30px;
     text-align: center;
     text-transform: uppercase;
@@ -189,13 +190,20 @@ h2.title {
     padding: 108px 0 74px 0;
 }
 
-.optimization .optimization_header {
+.optimization .optimization_header, .webinar .webinar_data {
     margin-left: 391px;
     color: #299CBD;
     font-family: Roboto;
     font-weight: 900;
     font-size: 30px;
     text-transform: uppercase;
+}
+
+.webinar .webinar_data {
+    font-size: 36px;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 0;
 }
 
 .optimization .optimization_text {
@@ -279,4 +287,28 @@ h2.title {
 
 .bonus .bonus_btn {
     margin-top: 51px;
+}
+
+.webinar {
+    min-height: 514px;
+    padding: 81px 0 52px 0;
+}
+
+.webinar .webinar_img {
+    display: block;
+    margin: 0 auto;
+}
+
+.webinar .webinar_header {
+    margin-top: 36px;
+    text-align: center;
+}
+
+.webinar .webinar_text {
+    margin-top: 18px;
+    color: #4A4A4A;
+    font-family: Roboto;
+    font-weight: normal;
+    font-size: 23px;
+    text-align: center;
 }
