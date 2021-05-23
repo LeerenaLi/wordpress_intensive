@@ -331,6 +331,7 @@ footer .footer_link {
 
 footer .footer_link:nth-child(1) {
     border-right: 1px solid #888888;
+    padding: 0 15px 0 0;
 }
 
 footer .footer_tel {
@@ -340,4 +341,5 @@ footer .footer_tel {
     font-weight: 300;
     font-size: 15px;
     line-height: 21px;
+    padding-right: 10px;
 }
